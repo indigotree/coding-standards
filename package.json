@@ -1,0 +1,25 @@
+{
+  "name": "@indigotree/coding-standards",
+  "description": "Indigo Tree coding standards",
+  "private": true,
+  "scripts": {
+    "lerna": "lerna",
+    "lerna:publish": "lerna publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indigotree/coding-standards.git"
+  },
+  "author": "Indigo Tree <hello@indigotree.co.uk>",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/indigotree/coding-standards/issues"
+  },
+  "homepage": "https://github.com/indigotree/coding-standards#readme",
+  "dependencies": {
+    "lerna": "^4.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  }
+}

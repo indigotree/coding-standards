@@ -1,0 +1,21 @@
+{
+  "name": "indigotree/coding-standards",
+  "description": "Indigo Tree coding standards",
+  "type": "phpcodesniffer-standard",
+  "authors": [
+    {
+      "name": "Indigo Tree",
+      "email": "hello@indigotree.co.uk",
+      "homepage": "https://indigotree.co.uk"
+    }
+  ],
+  "license": "GPL-3.0-only",
+  "require": {
+    "php": ">=7.4",
+    "automattic/vipwpcs": "^2.3.2",
+    "fig-r/psr2r-sniffer": "^0.5.0",
+    "phpcompatibility/phpcompatibility-wp": "^2.0.0",
+    "squizlabs/php_codesniffer": "~3.5.0",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1"
+  }
+}

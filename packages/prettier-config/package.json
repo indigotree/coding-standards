@@ -1,0 +1,23 @@
+{
+  "name": "@indigotree/prettier-config",
+  "version": "0.0.1",
+  "description": "Indigo Tree Prettier rules",
+  "main": "index.js",
+  "author": "Indigo Tree <hello@indigotree.co.uk>",
+  "license": "MPL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indigotree/coding-standards.git",
+    "directory": "packages/prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/indigotree/coding-standards/issues"
+  },
+  "homepage": "https://github.com/indigotree/coding-standards#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
