@@ -12,6 +12,8 @@ Install via NPM:
 npm i @indigotree/prettier-config@latest --save-dev
 ```
 
+Note, there are also peerDependencies to install.
+
 Add to `package.json` as:
 
 ```json

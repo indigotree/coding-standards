@@ -10,6 +10,8 @@ Install via NPM:
 npm i @indigotree/eslint-config@latest --save-dev
 ```
 
+Note, there are also peerDependencies to install.
+
 Extend in your `.eslintrc`:
 
 ```json
