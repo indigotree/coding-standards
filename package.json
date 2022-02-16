@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/indigotree/coding-standards#readme",
   "dependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "4.0.0"
   },
   "devDependencies": {
-    "prettier": "^2.5.1"
+    "prettier": "2.5.1"
   }
 }
