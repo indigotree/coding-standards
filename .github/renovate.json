@@ -1,6 +1,6 @@
 {
   "extends": [
-    "config:base",
-    "commitBodyTable": true
-  ]
+    "config:base"
+  ],
+  "commitBodyTable": true
 }
