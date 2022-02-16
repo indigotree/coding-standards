@@ -19,7 +19,7 @@
   },
   "peerDependencies": {
     "@indigotree/prettier-config": "^1.1.2",
-    "@wordpress/eslint-plugin": "^9.3.0",
+    "@wordpress/eslint-plugin": "^9.3.0 || ^10.0.0",
     "eslint": "^7.9.0",
     "prettier-eslint": "^13.0.0"
   }
