@@ -18,11 +18,11 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@indigotree/prettier-config": "^1.1.2",
-    "stylelint": "^13.13.0 || ^14.0.0"
+    "@indigotree/prettier-config": "*",
+    "stylelint": "*"
   },
   "dependencies": {
-    "stylelint-config-prettier": "^9.0.3",
-    "stylelint-scss": "^4.0.0"
+    "stylelint-config-prettier": "*",
+    "stylelint-scss": "*"
   }
 }
