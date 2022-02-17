@@ -2,7 +2,7 @@ module.exports = {
   root: true,
   globals: {
     "wp": "readonly",
-    "jQuery": "writable"
+    "jQuery": "readonly"
   },
   extends: [
     "plugin:@wordpress/eslint-plugin/recommended-with-formatting",
