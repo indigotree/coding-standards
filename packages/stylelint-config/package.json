@@ -1,6 +1,6 @@
 {
   "name": "@indigotree/stylelint-config",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Indigo Tree Stylelint rules",
   "main": "index.js",
   "author": "Indigo Tree <hello@indigotree.co.uk>",
@@ -22,8 +22,8 @@
     "stylelint": "*"
   },
   "dependencies": {
+    "stylelint-config-prettier": "*",
     "stylelint-config-recommended": "*",
-    "stylelint-config-recommended-scss": "*",
-    "stylelint-config-prettier": "*"
+    "stylelint-config-recommended-scss": "*"
   }
 }
