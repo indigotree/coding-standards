@@ -22,7 +22,8 @@
     "stylelint": "*"
   },
   "dependencies": {
-    "stylelint-config-prettier": "*",
-    "stylelint-scss": "*"
+    "stylelint-config-recommended": "*",
+    "stylelint-config-recommended-scss": "*",
+    "stylelint-config-prettier": "*"
   }
 }

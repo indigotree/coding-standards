@@ -1,7 +1,3 @@
 module.exports = {
-  plugins: ["stylelint-scss"],
-  extends: ["stylelint-config-prettier"],
-  rules: {
-    "at-rule-disallowed-list": ["debug"],
-  },
+  extends: ["stylelint-config-recommended-scss", "stylelint-config-prettier"],
 };
