@@ -1,6 +1,6 @@
 {
   "name": "@indigotree/stylelint-config",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Indigo Tree Stylelint rules",
   "main": "index.js",
   "author": "Indigo Tree <hello@indigotree.co.uk>",
