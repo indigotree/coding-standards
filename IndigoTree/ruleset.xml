@@ -4,13 +4,11 @@
 	<description>Indigo Tree coding standards</description>
 
     <exclude-pattern>node_modules/*</exclude-pattern>
-	<exclude-pattern>vendor/*</exclude-pattern>
+	<exclude-pattern>wp-content/platform/vendor/*</exclude-pattern>
 	
 	<rule ref="PHPCompatibility" />
 	<rule ref="WordPress-VIP-Go" />
 
-	<!-- Disallow long array syntax. -->
-	<rule ref="Generic.Arrays.DisallowLongArraySyntax" />
 	<!-- Single statement on same line. -->
 	<rule ref="Generic.Formatting.DisallowMultipleStatements" />
 	<!-- Namespacing required for classes. -->
