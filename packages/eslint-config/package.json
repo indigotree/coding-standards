@@ -1,6 +1,6 @@
 {
   "name": "@indigotree/eslint-config",
-  "version": "1.6.2",
+  "version": "1.10.0",
   "description": "Indigo Tree ESLint rules",
   "main": "index.js",
   "author": "Indigo Tree <hello@indigotree.co.uk>",
