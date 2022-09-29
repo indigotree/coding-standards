@@ -27,11 +27,18 @@
 	<!-- Ban inline assignment in control structures. -->
 	<rule ref="PSR2R.ControlStructures.NoInlineAssignment" />
 
-	<!-- Use parse_url(), file_get_contents(), json_encode() -->
 	<rule ref="WordPress.WP">
+		<!-- Use parse_url(), file_get_contents(), json_encode() -->
 		<exclude name="WordPress.WP.AlternativeFunctions.parse_url_parse_url"/>
 		<exclude name="WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents"/>
 		<exclude name="WordPress.WP.AlternativeFunctions.json_encode_json_encode"/>
+
+		<!-- Remove Automattic VIP opinionated rules. -->
+		<exclude name="WordPressVIPMinimum.Functions.RestrictedFunctions.custom_role_add_role"/>
+
+		<!-- Prevent duplicate messages + deprecation notice from deprecated sniff. -->
+		<exclude name="WordPress.WP.TimezoneChange.timezone_change_date_default_timezone_set"/>
+		<exclude name="WordPress.WP.TimezoneChange.DeprecatedSniff"/>
 	</rule>
 
 </ruleset>
