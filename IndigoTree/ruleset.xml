@@ -3,7 +3,7 @@
 
 	<description>Indigo Tree coding standards</description>
 
-    <exclude-pattern>node_modules/*</exclude-pattern>
+	<exclude-pattern>node_modules/*</exclude-pattern>
 	<exclude-pattern>wp-content/platform/vendor/*</exclude-pattern>
 	
 	<rule ref="PHPCompatibility" />
@@ -11,16 +11,27 @@
 
 	<!-- Single statement on same line. -->
 	<rule ref="Generic.Formatting.DisallowMultipleStatements" />
+
 	<!-- Namespacing required for classes. -->
 	<rule ref="PSR1.Classes.ClassDeclaration" />
+
 	<!-- Namespacing required for functions. -->
 	<rule ref="PSR2.Namespaces.NamespaceDeclaration" />
+
 	<!-- Namespacing of `use` statements. -->
 	<rule ref="PSR2.Namespaces.UseDeclaration">
 		<exclude name="PSR2.Namespaces.UseDeclaration.MultipleDeclarations" />
 	</rule>
 	<rule ref="PSR2R.Namespaces.UnusedUseStatement" />
+
 	<!-- Ban inline assignment in control structures. -->
 	<rule ref="PSR2R.ControlStructures.NoInlineAssignment" />
+
+	<!-- Use parse_url(), file_get_contents(), json_encode() -->
+	<rule ref="WordPress.WP">
+		<exclude name="WordPress.WP.AlternativeFunctions.parse_url_parse_url"/>
+		<exclude name="WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents"/>
+		<exclude name="WordPress.WP.AlternativeFunctions.json_encode_json_encode"/>
+	</rule>
 
 </ruleset>
