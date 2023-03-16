@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["stylelint-config-recommended-scss", "stylelint-config-prettier"],
+  extends: ["stylelint-config-recommended-scss"],
   rules: {
     "scss/comment-no-empty": null,
     "scss/at-import-partial-extension": null,
