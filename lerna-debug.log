@@ -1,0 +1,10 @@
+36 error Error: Command failed with exit code 1: git add -- packages/stylelint-config/package.json packages/stylelint-config/package-lock.json lerna.json
+36 error The following paths are ignored by one of your .gitignore files:
+36 error packages/stylelint-config/package-lock.json
+36 error hint: Use -f if you really want to add them.
+36 error hint: Turn this message off by running
+36 error hint: "git config advice.addIgnoredFile false"
+36 error     at makeError (/Users/paulwong-gibbs/Downloads/coding-standards/node_modules/execa/lib/error.js:60:11)
+36 error     at handlePromise (/Users/paulwong-gibbs/Downloads/coding-standards/node_modules/execa/index.js:118:26)
+36 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+36 error     at async Promise.all (index 0)

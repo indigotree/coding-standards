@@ -1,5 +1,4 @@
 # Coding Standards
-
 Indigo Tree coding standards.
 
 ## Packages
