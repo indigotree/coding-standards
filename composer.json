@@ -12,7 +12,7 @@
   "license": "GPL-3.0-only",
   "require": {
     "php": ">=7.4",
-    "fig-r/psr2r-sniffer": "^1.5",
+    "fig-r/psr2r-sniffer": "^2.0",
     "phpcompatibility/phpcompatibility-wp": "^2.1",
     "squizlabs/php_codesniffer": "^3.7",
     "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
